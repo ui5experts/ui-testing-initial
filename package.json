@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "karma start --single-run --browsers ChromeHeadless",
-    "tdd": "karma start",
+    "tdd": "karma start"
   },
   "keywords": [
     "SAPUI5",
