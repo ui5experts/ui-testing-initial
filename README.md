@@ -14,8 +14,3 @@ $ npm start
 ```
 
 Find the run script in [this Gist](https://gist.github.com/cschuff/6f23b61622b41fdaa3c01623e530b845).
-
-
-## [BackstopJS](https://github.com/garris/BackstopJS)
-
-

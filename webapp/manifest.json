@@ -6,6 +6,7 @@
     "i18n": "i18n/i18n.properties",
     "title": "{{appTitle}}",
     "description": "{{appDescription}}",
+    "icon": "sap-icon://flight",
     "applicationVersion": {
       "version": "1.0.0"
     },
@@ -27,7 +28,7 @@
   "sap.ui": {
     "technology": "UI5",
     "icons": {
-      "icon": "sap-icon://detail-view",
+      "icon": "sap-icon://flight",
       "favIcon": "",
       "phone": "",
       "phone@2": "",
