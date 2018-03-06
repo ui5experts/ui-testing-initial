@@ -32,14 +32,6 @@
           <ObjectStatus text="{
                           path: 'Status',
                           formatter: '.formatStateText'
-                        }"
-                        icon="{
-                          path: 'Status',
-                          formatter: '.formatter.stateIcon'
-                        }"
-                        state="{
-                          path: 'Status',
-                          formatter: '.formatter.state'
                         }" />
         </statuses>
       </ObjectHeader>

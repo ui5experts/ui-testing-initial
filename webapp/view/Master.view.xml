@@ -59,16 +59,6 @@
           </Toolbar>
         </infoToolbar>
         <items>
-          <!--number="{-->
-          <!--path: 'EstimatedCost/Value',-->
-          <!--type: 'sap.ui.model.type.Currency',-->
-          <!--formatOptions: {-->
-          <!--source: {-->
-          <!--groupingSeparator: '',-->
-          <!--decimalSeparator: '.'-->
-          <!--}-->
-          <!--}-->
-          <!--}"-->
           <ObjectListItem
             type="{= ${device>/system/phone} ? 'Active' : 'Inactive'}"
             press="onSelectionChange"
@@ -85,14 +75,6 @@
               <ObjectStatus text="{
                               path: 'Status',
                               formatter: '.formatStateText'
-                            }"
-                            icon="{
-                              path: 'Status',
-                              formatter: '.formatter.stateIcon'
-                            }"
-                            state="{
-                              path: 'Status',
-                              formatter: '.formatter.state'
                             }" />
             </firstStatus>
           </ObjectListItem>
