@@ -6,7 +6,7 @@ sap.ui.define([
     function getFrameUrl(sHash, sUrlParameters) {
       var sUrl = jQuery.sap.getResourcePath("ui5experts/ui-testing/app", ".html");
       sHash = sHash || "";
-      sUrlParameters = sUrlParameters ? "?" + sUrlParameters : "";
+      sUrlParameters = "?sap-ui-language=en" + (sUrlParameters ? "&" + sUrlParameters : "");
 
       if (sHash) {
         sHash = "#UITesting-display&/" + (sHash.indexOf("/") === 0 ? sHash.substring(1) : sHash);
