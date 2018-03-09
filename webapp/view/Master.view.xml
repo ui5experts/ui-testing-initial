@@ -65,11 +65,7 @@
             title="{TripActivityName}"
             number="{
               path: 'EstimatedCost/Value',
-              type: 'sap.ui.model.type.Float',
-              formatOptions: {
-                minFractionDigits: 2,
-                maxFractionDigits: 2
-              }
+              formatter: '.formatter.currencyValue'
             }"
             numberUnit="{EstimatedCost/Currency}">
             <attributes>
