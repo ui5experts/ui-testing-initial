@@ -27,19 +27,23 @@
   "scenarios": [
     {
       "label": "Home",
-      "url": "http://localhost:8000/test/flpSandboxMockServer.html?serverDelay=0&sap-ui-language=en#UITesting-display"
+      "url": "http://localhost:8000/test/flpSandboxMockServer.html?serverDelay=0&sap-ui-language=en#UITesting-display",
+      "delay": 500
     },
     {
       "label": "Travel Detail",
-      "url": "http://localhost:8000/test/flpSandboxMockServer.html?serverDelay=0&sap-ui-language=en#UITesting-display&/Travels/5166245"
+      "url": "http://localhost:8000/test/flpSandboxMockServer.html?serverDelay=0&sap-ui-language=en#UITesting-display&/Travels/5166245",
+      "delay": 500
     },
     {
       "label": "NotFound",
-      "url": "http://localhost:8000/test/flpSandboxMockServer.html?serverDelay=0&sap-ui-language=en#UITesting-display&/Travels/666"
+      "url": "http://localhost:8000/test/flpSandboxMockServer.html?serverDelay=0&sap-ui-language=en#UITesting-display&/Travels/666",
+      "delay": 500
     },
     {
       "label": "Empty",
-      "url": "http://localhost:8000/test/flpSandboxMockServer.html?serverDelay=0&sap-ui-language=en#UITesting-display&/Travels"
+      "url": "http://localhost:8000/test/flpSandboxMockServer.html?serverDelay=0&sap-ui-language=en#UITesting-display&/Travels",
+      "delay": 500
     }
   ],
   "paths": {
