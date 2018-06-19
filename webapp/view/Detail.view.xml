@@ -16,17 +16,6 @@
     busyIndicatorDelay="{detailView>/delay}">
 
     <semantic:content>
-
-      <!--number="{-->
-      <!--path: 'EstimatedCost/Value',-->
-      <!--type: 'sap.ui.model.type.Currency',-->
-      <!--formatOptions: {-->
-      <!--source: {-->
-      <!--groupingSeparator: '',-->
-      <!--decimalSeparator: '.'-->
-      <!--}-->
-      <!--}-->
-      <!--}"-->
       <ObjectHeader
         id="objectHeader"
         icon="sap-icon://flight"
@@ -40,14 +29,9 @@
           <ObjectAttribute text="{RequesterLastName}, {RequesterFirstName}" />
         </attributes>
         <statuses>
-          <ObjectStatus text="{Status}"
-                        icon="{
+          <ObjectStatus text="{
                           path: 'Status',
-                          formatter: '.formatter.stateIcon'
-                        }"
-                        state="{
-                          path: 'Status',
-                          formatter: '.formatter.state'
+                          formatter: '.formatStateText'
                         }" />
         </statuses>
       </ObjectHeader>
@@ -61,17 +45,17 @@
             tooltip="{i18n>detailIconTabBarInfo}">
             <content>
               <f:SimpleForm>
-                <Label text="Purpose" />
+                <Label text="{i18n>purpose}" />
                 <Text text="{Purpose}" />
-                <Label text="Location" />
+                <Label text="{i18n>location}" />
                 <Text text="{Location}" />
-                <Label text="Country" />
+                <Label text="{i18n>country}" />
                 <Text text="{CountryName} ({CountryCode})" />
-                <Label text="Departure" />
+                <Label text="{i18n>departure}" />
                 <Text text="{ path: 'Departure', type: 'sap.ui.model.type.DateTime' }" />
-                <Label text="Arrival" />
+                <Label text="{i18n>arrival}" />
                 <Text text="{ path: 'Arrival', type: 'sap.ui.model.type.DateTime' }" />
-                <Label text="Last Changed" />
+                <Label text="{i18n>lastChanged}" />
                 <Text text="{ path: 'LastChangeDate', type: 'sap.ui.model.type.DateTime' }" />
               </f:SimpleForm>
             </content>

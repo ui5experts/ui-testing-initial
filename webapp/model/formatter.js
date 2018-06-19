@@ -7,6 +7,7 @@ sap.ui.define([
   "use strict";
 
   return {
+
     /**
      * Rounds the currency value to 2 digits
      *
