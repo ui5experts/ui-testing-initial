@@ -26,6 +26,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "backstopjs": "^3.2.17",
     "express": "^4.16.3",
     "karma": "^1.7.1",
     "karma-chrome-launcher": "^2.2.0",
