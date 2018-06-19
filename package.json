@@ -1,7 +1,7 @@
 {
   "name": "ui-testing",
   "version": "0.0.1",
-  "description": "Example SAPUI5 application demonstrating the use of QUnit, OPA5, karma and Backstop.JS (sitFRA 2018)",
+  "description": "Example SAPUI5 application demonstrating the use of QUnit, OPA5, karma and Backstop.JS (UI5con 2018)",
   "main": "server.js",
   "scripts": {
     "test": "karma start --single-run --browsers ChromeHeadless",
