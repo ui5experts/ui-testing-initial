@@ -5,7 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "karma start --single-run --browsers ChromeHeadless",
-    "tdd": "karma start"
+    "tdd": "karma start",
+    "backstop": "backstop test",
+    "backstop-approve": "backstop approve",
+    "backstop-openReport": "backstop openReport"
   },
   "keywords": [
     "SAPUI5",
